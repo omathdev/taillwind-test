@@ -6,6 +6,18 @@ h1 {
     text-shadow:  black 2px 2px;
 }
 
+h1 i {
+ color: #ff007f;   
+}
+
+
+.font-2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 .page-hero:before {
     content: '';
     position: absolute;
@@ -16,3 +28,4 @@ h1 {
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%);
     z-index: 1;
 }
+

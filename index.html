@@ -11,7 +11,12 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Protest+Riot&display=swap" rel="stylesheet">
-</head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  
+  
+  </head>
 
 <body class="antialiased">
 
@@ -23,22 +28,40 @@
 
 <div class=" h-screen flex"> 
    <nav class=" w-44 h-1/2 flex flex-col sm:lg:md:justify-between  items-center ">
-    <div class=" md:w-20 md:h-20 lg:w-20 lg:h-20  text-[10px] md:text-lg border rounded-full border-white bg-zinc-300 w-10 h-10 sm:mt-10 mt-10 text-center pt-3 md:pt-6 cursor-pointer font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 hover:w-24   transition-all">Relax</div>
-    <div class=" md:w-20 md:h-20 lg:w-20 lg:h-20  text-[10px] md:text-lg border rounded-full border-white bg-zinc-300 w-10 h-10 sm:mt-10 mt-10 text-center pt-3 md:pt-6 cursor-pointer  font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 hover:w-24   transition-all">Medit</div>
-    <div class=" md:w-20 md:h-20 lg:w-20 lg:h-20  text-[10px] md:text-lg border rounded-full border-white  bg-zinc-300 w-10 h-10 sm:mt-10 mt-10 text-center pt-3 md:pt-6 cursor-pointer font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 hover:w-24   transition-all">Music</div>
+    <div   class=" md:w-20 md:h-20 lg:w-20 lg:h-20 relative top-14 text-[10px] md:text-lg border rounded-full border-white bg-zinc-300 w-10 h-10 sm:mt-10 mt-10 text-center pt-3 md:pt-6 cursor-pointer font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 hover:w-24  transition-all "> <p class="text" onclick="mudarTexto()"> 1 </p></div>
+    <div class=" md:w-20 md:h-20 lg:w-20 lg:h-20 relative top-14 text-[10px] md:text-lg border rounded-full border-white bg-zinc-300 w-10 h-10 sm:mt-10 mt-10 text-center pt-3 md:pt-6 cursor-pointer  font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 hover:w-24   transition-all">2</div>
+    <div class=" md:w-20 md:h-20 lg:w-20 lg:h-20 relative top-14 text-[10px] md:text-lg border rounded-full border-white  bg-zinc-300 w-10 h-10 sm:mt-10 mt-10 text-center pt-3 md:pt-6 cursor-pointer font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 hover:w-24   transition-all">3</div>
+    <div class=" md:w-20 md:h-20 lg:w-20 lg:h-20 relative top-14 text-[10px] md:text-lg border rounded-full border-white  bg-zinc-300 w-10 h-10 sm:mt-10 mt-10 text-center pt-3 md:pt-6 cursor-pointer font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 hover:w-24   transition-all">4</div>
    </nav>
 
  <div class="w-full  >
  
   <div class=" border border-red-200">
-  <h1 class="sm:text-[40px] text-[20px] lg:text-[70px] mt-5 mr-20 lg:mr-40    text-center shadow-2xl shadow-black   cursor-pointer" >In My Little Mind</h1>
-  <div></div>
+  <h1 class="sm:text-[40px] text-[20px] lg:text-[70px] mt-5 mr-28 lg:mr-40    text-center shadow-2xl shadow-black   cursor-pointer" >In <i >  My </i> Little <i> Mind </i></h1>
+  <div class=" h-72 flex items-center justify-center">
+    <img class="relative bottom-48 right-0 md:-right-52 md:bottom-52"  src="image/Y3il.gif" alt="" srcset="">
+    
+    <div> 
+    <h1   class="  w-[400px] md:w-[1000px] text-[40px] mr-28 md:text-[70px]  md:mt-20 font-2 "> 
+       Xô Ansiedade!  <br>
+       Aqui você consegue relaxar.</h1>
+      <h1 class="animate-pulse" >Toque nos passos ao lado para diminuir a Ansiedade</h1>
+    </div>
+  </div>
  </div>
  
-  
+
  </div>
 </div>
 
-<div></div>
+
+
 </body>
+
+
+<script>
+  function mudarTexto(){
+       document.getElementsByClassName('.text').innerText = "Respirar";
+  }
+  </script>
 </html>
